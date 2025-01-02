@@ -1,0 +1,119 @@
+/* ReadingPlanner.css */
+
+/* Ensure this is the container that wraps your calendar component */
+.reading-planner-container {
+  background-image: url(www.jpg);
+  background-size: cover;  /* Adjust the size of the background image */
+  background-position: center;  /* Center the background image */
+  background-repeat: no-repeat;  /* Prevent the background image from repeating */
+  height: 100vh;  /* Make sure the container takes up the full viewport height */
+  width: 100vw;  /* Make sure the container takes up the full viewport width */
+  padding: 20px;  /* Optional: Add some padding around the content */
+}
+
+/* You may need additional styling for your calendar component itself */
+.react-calendar {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #1cb19d; /* Set a background color for the calendar to ensure it's readable */
+}
+
+
+
+.reading-planner {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calendar {
+  border: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.react-calendar__tile {
+  background-color: #f0f8ff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.react-calendar__tile:active,
+.react-calendar__tile:focus {
+  background-color: #e6f7ff;
+}
+
+.react-calendar__tile--now {
+  border: 2px solid #18f0ff;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.react-calendar__navigation__label {
+  font-weight: bold;
+}
+
+.plan-form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.plan-form input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.plan-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0e7466;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.plan-form button:hover {
+  background-color: #40a9ff;
+}
+
+.plan-list {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.plan-list li button {
+  border: none;
+  background-color: transparent;
+  color: #1890ff;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.plan-list li button:hover {
+  color: #40a9ff;
+}
