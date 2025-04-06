@@ -1,6 +1,7 @@
+import RegistrationForm from "@/components/auth/registration-form.tsx";
 
-export default function SigninPage() {
+export default function RegisterPage() {
     return (
-        <div>SigninPage</div>
+        <RegistrationForm/>
     )
 }

@@ -1,5 +1,5 @@
-export default function LoginForm() {
+export default function RegistrationForm() {
     return (
-        <div>LoginForm</div>
+        <div>RegistrationForm</div>
     )
 }
